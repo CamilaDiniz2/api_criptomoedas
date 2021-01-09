@@ -24,8 +24,9 @@ fetch(
             monetization_on
           </span>
           <div class="media-body pt-3 pr-1 mx-auto" >
-            <h5>${api.data[i].name}</h5>
-            <p>${api.data[i].symbol}</p>
+            <h5>Name:${api.data[i].name}</h5>
+            <p>Symbol: ${api.data[i].symbol}</p>
+            <p>Data: ${api.data[i].first_historical_data.substring(0, 10)}</p>
           </div>
         </div>
         `;
