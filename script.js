@@ -1,5 +1,5 @@
 const apiKey = {
-  key: 'f0dd7571-5b87-488b-8937-78f102b9fa50',
+  key: 'mey_key',
 };
 fetch(
   'https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' +
